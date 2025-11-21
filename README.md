@@ -61,14 +61,6 @@ Connection Settings: You can choose the connection point by changing the SERVER_
 
 23456: Connects via the Relay Server.
 
-## Commands
-You can use the following formats in the chat window:
-
-Action	Command Format	Example
-General Message	(Type directly)	Hello everyone!
-- Private Message 1	/pm <name> <message>	/pm John How are you?
-- Private Message 2	@<name>: <message>	@John: Is the project done?
-
 ## File Descriptions
 - chat_server.py: Accepts connections (accept), broadcasts messages to all users, filters private messages, and handles logging.
 
